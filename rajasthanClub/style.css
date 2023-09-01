@@ -1,0 +1,333 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    color: #333;
+    background: url(data:image/jpeg;base64,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) !important;
+}
+
+header {
+    background: #111;
+}
+
+.headline {
+    position: relative;
+    height: 400px;
+    color: #fff;
+    text-align: center;
+    background: url("https://www.holidify.com/images/bgImages/RAJASTHAN.jpg") no-repeat center center;
+    background-size: cover;
+    background-position: center;
+    height: 100vh !important;
+}
+
+.headline:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(17, 17, 17, 0.5);
+}
+
+.inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    z-index: 10;
+    transform: translateX(-50%) translateY(-50%);
+    -webkit-animation: fade-in 0.75s 0.25s ease-in forwards;
+    animation: fade-in 0.75s 0.25s ease-in forwards;
+}
+
+.inner h1 img{
+    margin: 0;
+    height: 4em;
+    width: 7em;
+    line-height: 1.2em;
+}
+
+
+nav {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+nav.scrolled {
+    background: rgba(17, 17, 17, 0.9);
+}
+
+nav ul {
+    float: right;
+    list-style: none;
+    padding: 25px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    float: left;
+}
+
+nav a {
+    font-size: 0.9em;
+    color: #fff;
+    text-decoration: none;
+    margin: 5px 0 0 20px;
+    display: block;
+}
+
+.backgroundGray{
+    background: gray;
+    opacity: 0.7;
+    transition-duration: 0.5s;
+}
+
+nav a:hover {
+    color: #ededed;
+}
+
+.logo {
+    height: 100px;
+    float: left;
+    padding-left: 2%;
+}
+
+.logoImg {
+    height: 100%;
+    width: 100%;
+
+}
+
+.logo:before,
+.logo:after {
+    position: absolute;
+    font-size: 7em;
+    font-weight: 300;
+    line-height: 0;
+    color: #fff;
+    top: 25px;
+}
+
+
+section {
+    width: 100%;
+    margin: 25px auto;
+    padding: 20px;
+    max-width: 800px;
+    font-size: 1.2em;
+    line-height: 1.6em;
+    box-sizing: border-box;
+}
+
+@-webkit-keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.namaste {
+    width: 100px;
+    height: 100px;
+    mix-blend-mode: color-burn;
+}
+
+.carousel {
+    width: 50%;
+    margin: 0px auto;
+}
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;600&display=swap");
+
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+/* h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 800;
+  margin-top: 0;
+  margin-bottom: 0;
+} */
+
+
+.card-hover {
+  width: 360px;
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 0 32px -10px rgba(0, 0, 0, 0.08);
+  border-radius: 30px;
+
+}
+.card-hover:has(.card-hover__link:hover) .card-hover__extra {
+  transform: translateY(0);
+  transition: transform 0.35s;
+}
+.card-hover:hover .card-hover__content {
+  background-color: #DEE8C2;
+  bottom: 100%;
+  transform: translateY(100%);
+  padding: 50px 60px;
+  transition: all 0.35s cubic-bezier(0.1, 0.72, 0.4, 0.97);
+}
+.card-hover:hover .card-hover__link {
+  opacity: 1;
+  transform: translate(-50%, 0);
+  transition: all 0.3s 0.35s cubic-bezier(0.1, 0.72, 0.4, 0.97);
+}
+.card-hover:hover img {
+  transform: scale(1);
+  transition: 0.35s 0.1s transform cubic-bezier(0.1, 0.72, 0.4, 0.97);
+}
+.card-hover__content {
+  width: 100%;
+  text-align: center;
+  background-color: #86B971;
+  padding: 0 60px 50px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: translateY(0);
+  transition: all 0.35s 0.35s cubic-bezier(0.1, 0.72, 0.4, 0.97);
+  will-change: bottom, background-color, transform, padding;
+  z-index: 1;
+}
+.card-hover__content::before, .card-hover__content::after {
+  content: "";
+  width: 100%;
+  height: 120px;
+  background-color: inherit;
+  position: absolute;
+  left: 0;
+  z-index: -1;
+}
+.card-hover__content::before {
+  top: -80px;
+  -webkit-clip-path: ellipse(60% 80px at bottom center);
+          clip-path: ellipse(60% 80px at bottom center);
+}
+.card-hover__content::after {
+  bottom: -80px;
+  -webkit-clip-path: ellipse(60% 80px at top center);
+          clip-path: ellipse(60% 80px at top center);
+}
+.card-hover__title {
+  font-size: 1.5rem;
+  margin-bottom: 1em;
+}
+.card-hover__title span {
+  color: #2d7f0b;
+}
+.card-hover__text {
+  font-size: 0.75rem;
+}
+.card-hover__link {
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translate(-50%, 10%);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-decoration: none;
+  color: #2d7f0b;
+  opacity: 0;
+  padding: 10px;
+  transition: all 0.35s;
+}
+.card-hover__link:hover svg {
+  transform: translateX(4px);
+}
+.card-hover__link svg {
+  width: 18px;
+  margin-left: 4px;
+  transition: transform 0.3s;
+}
+.card-hover__extra {
+  height: 50%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  font-size: 1.5rem;
+  text-align: center;
+  background-color: #86b971;
+  padding: 80px;
+  bottom: 0;
+  z-index: 0;
+  color: #dee8c2;
+  transform: translateY(100%);
+  will-change: transform;
+  transition: transform 0.35s;
+}
+.card-hover__extra span {
+  color: #2d7f0b;
+}
+.card-hover img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  z-index: -1;
+  transform: scale(1.2);
+  transition: 0.35s 0.35s transform cubic-bezier(0.1, 0.72, 0.4, 0.97);
+}
+
+
+.maharajaHeaderBackground{
+    font-family: 'Berkshire Swash',Georgia,'Times New Roman',serif;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6qEPJgpv5MXwvbyn19tn785opPMFmPXNkTg&usqp=CAU);
+}
+
+.maharaja{
+background: url(https://www.frontlist.in/storage/uploads/2020/05/india_maharana_pratap_jayanti.jpg);
+background-size: cover;
+/* height: 0.8vh;   */
+}
+.maharaja .card{
+    position: relative;
+    left: 63%;
+}
+.maharaja .card p{
+    overflow-y: scroll;
+    height: 200px;
+}
+
